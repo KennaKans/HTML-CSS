@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+}
+.item {
+  background: #111;
+  color: #fff;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+span {
+  color: #febe01;
+}
+
+p {
+  color: #b2b2b2;
+}
+
+a {
+  display: inline-block; /*impede de um bloco passar por cima de outro*/
+  background: #febe01;
+  color: #320;
+  padding: 10px;
+  border-radius: 4px; /*adiciona arredondamento*/
+  text-decoration: none; /*remove a linha abaixo dos links*/
+}
