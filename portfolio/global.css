@@ -27,14 +27,23 @@ img {
 }
 @media (max-width: 800px) {
   .sub-title {
-    font-size: 3rem;
+    font-size: 3.3rem;
     text-transform: capitalize;
-    max-width: initial;
+    max-width: 3ch;
   }
   .exp-text {
     font-size: 1.25rem;
   }
+
   .empresa-ano {
     position: initial;
+  }
+}
+@media (max-width: 400px) {
+  .exp {
+    font-size: 1rem;
+  }
+  .formatacao-text {
+    font-size: 1rem;
   }
 }

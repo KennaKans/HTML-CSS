@@ -6,7 +6,7 @@
   grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
-h2 {
+.exp h2 {
   color: #e0e0e0;
 }
 .exp-text {
@@ -73,11 +73,26 @@ h2 {
 }
 
 @media (max-width: 800px) {
-  .experiencia {
+  .exp {
     grid-template-columns: 1fr;
     gap: 40px;
   }
-  .experiencia .sub-title {
+  .exp .sub-title {
+    max-width: none;
+    font-size: 3.3rem;
     color: #141414;
+    text-transform: capitalize;
+  }
+  .empresa-ano {
+    position: initial;
+    order: 1;
+    width: initial;
+    text-align: left;
+  }
+}
+
+@media (max-width: 400px) {
+  .exp {
+    font-size: 1rem;
   }
 }
